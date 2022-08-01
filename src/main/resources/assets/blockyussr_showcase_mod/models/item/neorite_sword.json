@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "blockyussr_showcase_mod:item/neorite_sword"
+  }
+}

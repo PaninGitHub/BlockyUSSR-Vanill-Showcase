@@ -1,6 +1,6 @@
-package net.blocky.showcase.mixin;
+package net.blockysm.mod.mixin;
 
-import net.blocky.showcase.BlockySM;
+import net.blockysm.mod.BlockySM;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		BlockySM.LOGGER.info("This line is printed by an example mod mixin!");
+		BlockySM.LOGGER.info("Helo im mixin!!!");
 	}
 }

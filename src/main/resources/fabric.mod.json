@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.blocky.showcase.BlockySM"
+      "net.blockysm.mod.BlockySM"
     ],
     "client": [
-        "net.blocky.showcase.ModClient"
+        "net.blockysm.mod.ModClient"
     ]
   },
   "mixins": [
-    "showcase.mixins.json"
+    "mod.mixins.json"
   ],
 
   "depends": {
